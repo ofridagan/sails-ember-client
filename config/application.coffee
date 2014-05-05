@@ -7,8 +7,6 @@ You can find the parent object in: node_modules/lineman/config/application.js
 ###
 
 module.exports = (lineman) ->
-  # Override application configuration here. Common examples follow in the comments.
-  return {
 
     #  API Proxying
     #
@@ -25,4 +23,3 @@ module.exports = (lineman) ->
     #    }
     #  }
 
-  }

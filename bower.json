@@ -1,0 +1,22 @@
+{
+  "name": "client",
+  "version": "0.0.1",
+  "authors": [
+    "Ofri Dagan <ofridagan@gmail.com>"
+  ],
+  "description": "Testing out ember and sails",
+  "main": "app/js/app.coffee",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "ember",
+    "sails"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "ember": "~1.5.1",
+    "underscore": "~1.6.0"
+  }
+}
