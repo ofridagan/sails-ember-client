@@ -1,14 +1,9 @@
 # Lineman + Ember
 
-[![Build Status](https://travis-ci.org/linemanjs/lineman-ember-template.png)](https://travis-ci.org/linemanjs/lineman-ember-template)
-
-A little example that pulls [lineman](https://github.com/linemanjs/lineman) & [ember](http://emberjs.com) together.
-
-If you haven't already done so, first: install [node.js](http://nodejs.org); next, install lineman:
-
-$ npm install -g lineman
-
-To work from this example, just clone into it and run:
+Playing around with a single page application using:
+* Ember in the client.
+* Sails in the server - API only with socket.io.
+* lineman for client development process.
 
 ```
 $ npm install
