@@ -17,6 +17,7 @@
   "private": true,
   "dependencies": {
     "ember": "~1.5.1",
-    "underscore": "~1.6.0"
+    "underscore": "~1.6.0",
+    "ember-data": "~1.0.0"
   }
 }
