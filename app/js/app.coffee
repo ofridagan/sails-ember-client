@@ -1,12 +1,12 @@
-window.App = Ember.Application.create()
+`import Resolver from 'ember/resolver'`
+`import loadInitializers from 'ember/load-initializers'`
 
-App.Router.map ->
-  # put your routes here
+Ember.MODEL_FACTORY_INJECTIONS = true
 
-App.IndexRoute = Ember.Route.extend
-  model: ->
-    [
-      'red'
-      'yellow'
-      'blue'
-    ]
+App = Ember.Application.extend
+  Resolver: Resolver
+  modulePrefix: 'optibus'
+
+loadInitializers(App, 'optibus')
+
+`export default App`
