@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
   <head>
     <title><%= pkg.name %></title>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" type="text/css" href="css/app.css" media="all" />
     <script src="js/app.js"></script>
+
     <script>
-      window.Optibus = require('optibus/app')['default'].create();
+      window.Optibus = require('optibus/app')['default'].create({
+        rootElement: '#app'
+      });
     </script>
+
   </head>
+
   <body>
+    <div id="app"></div>
+
+    <script>
+      $(document).foundation();
+    </script>
   </body>
+
 </html>
