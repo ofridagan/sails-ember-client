@@ -14,9 +14,12 @@
 
 module.exports =
   drawRoutes: (app) ->
-    # app.get '/hellos/:hello_id', (req, res) ->
-    #   res.json
-    #     hello:
-    #       id: req.params.hello_id
-    #       greeting: "Hello"
-    #       audience: "World"
+    app.get '/users', (req, res) ->
+      res.json
+        users: [
+          id: 1
+          username: "mel"
+        ,
+          id: 2
+          username: "ilana"
+        ]

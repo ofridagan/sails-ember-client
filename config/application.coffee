@@ -85,7 +85,7 @@ module.exports = (lineman) ->
 
   watch:
     coffee:
-      tasks: app.watch.coffee.tasks.concat ['transpile']
+      tasks: app.watch.coffee.tasks.concat ['coffee', 'transpile', 'concat_sourcemap:js']
 
   coffeelint:
     options:
