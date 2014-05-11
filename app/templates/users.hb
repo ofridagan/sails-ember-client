@@ -1,6 +1,8 @@
-<h2>Users</h2>
-<ul>
-{{#each user in controller}}
-  <li>{{user.username}}</li>
-{{/each}}
-</ul>
+<div class="row">
+  <div class="four columns" id="users">
+
+  <h2>Users</h2>
+  {{ partial "usersList" }}
+
+  </div>
+</div>

@@ -1,3 +1,9 @@
-<h2>Welcome to EmberSails Test</h2>
+<div class="row">
+  <div class="twelve columns">
 
-{{outlet}}
+    <h2>Optibus</h2>
+    <hr>
+    <p>{{outlet}}</p>
+
+  </div>
+</div>
