@@ -1,7 +1,7 @@
 <div class="row">
   <div class="twelve columns">
 
-    <h2>Optibus</h2>
+    <h2>Test</h2>
     <hr>
     <p>{{outlet}}</p>
 

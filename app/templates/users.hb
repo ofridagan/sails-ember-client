@@ -2,7 +2,7 @@
   <div class="four columns" id="users">
 
   <h2>Users</h2>
-  {{ partial "usersList" }}
+  {{ partial "users/usersList" }}
 
   </div>
 </div>

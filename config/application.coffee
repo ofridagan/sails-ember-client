@@ -11,6 +11,11 @@ _ = require("underscore")
 module.exports = (lineman) ->
   app = lineman.config.application
 
+  server:
+    apiProxy:
+      enabled: true
+      port: 1337
+
   concat_sourcemap:
       js:
         src: _(app.concat_sourcemap.js.src).without(
