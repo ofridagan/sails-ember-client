@@ -5,8 +5,6 @@ IndexRoute = Ember.Route.extend
       'yellow'
       'blue'
     ]
-  renderTemplate: ->
-    @render 'userss'
 
 `export default IndexRoute`
 
