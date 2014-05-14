@@ -13,6 +13,8 @@ module.exports = (lineman) ->
       "vendor/bower/loader/loader.js"
       "vendor/bower/underscore/underscore.js"
       "vendor/bower/jquery/jquery.js"
+      "vendor/js/sockets.js"
+      "vendor/js/sails.io.js"
       "vendor/bower/handlebars/handlebars.runtime.js"
       "vendor/bower/ember/ember.js"
       "vendor/bower/ic-ajax/dist/named-amd/main.js"
